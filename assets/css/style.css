@@ -3,19 +3,23 @@ body{
 }
 
 .header{
-    height: 10em;
-    padding: 5em;
-    font-size: 2em;
-    background-image: url(../imgs/fondoheader.jpg);
-    background-size: 130%;
-    background-position: center;
-    background-color: black;
+    height: 8em;
+    padding: 0.5em;
+    font-size: 1.5em;
+    background-image: url(../imgs/fondoheader.jpg); position: right;
+    background-repeat: no-repeat;
     color: white;
 }
 
 .header h1{
-    margin: 0px;
-    font-weight: 400;
+    margin-left: 2em;
+    font-weight: 350;
+    padding-top: 0.25em;
+}
+
+.header p{
+    margin-left: 4em;
+    font-weight: 100;
 }
 
 .products{
@@ -24,15 +28,20 @@ body{
     text-align: center;
 }
 
-.products td{
-    width:50%;
-    padding:2em;
-    font-size:2em;
+.products img{
+    width: 250px;
+    height: 250px;
+    border: solid 1px #ffd;
 }
 
-.products img{
-    width:100%;
-    border: solid 1px #ffd;
+.products table{
+    margin-left: 10em;
+}
+
+.products td{
+    width:50%;
+    padding:0.5em;
+    font-size:1.25em;
 }
 
 .footer{
@@ -40,4 +49,10 @@ body{
     font-size: 1.2em;
     margin:auto;
     text-align: center;
+}
+
+.footer table{
+    margin-left: 25em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
